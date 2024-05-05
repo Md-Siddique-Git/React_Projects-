@@ -1,0 +1,16 @@
+#navbar{
+    border: 5px solid black;
+    border-radius: 50px;
+    margin: 5px 200px;
+    
+}
+#nav_li{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    cursor: pointer;
+}
+#nav_li:hover{
+    padding: 20px;
+    
+}
