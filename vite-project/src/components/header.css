@@ -1,7 +1,9 @@
 #navbar{
-    border: 5px solid black;
+    border: 5px solid rgb(248, 214, 121);
     border-radius: 50px;
     margin: 5px 200px;
+    background:linear-gradient(70deg, red,green,blue);
+    margin-top: 20px;
     
 }
 #nav_li{
@@ -9,8 +11,12 @@
     list-style: none;
     justify-content: space-around;
     cursor: pointer;
+    color: white;
 }
 #nav_li:hover{
-    padding: 20px;
+    padding: 3px;
     
+}
+body{
+    background-color: #111;
 }
