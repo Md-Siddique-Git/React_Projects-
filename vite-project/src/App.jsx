@@ -8,7 +8,12 @@ function App() {
   return (
     <>
       <Header/>
+      <div className="justify-center align-middle flex">
       <Cards/>
+      <Cards/>
+
+      </div>
+      
       
     </>
   )
