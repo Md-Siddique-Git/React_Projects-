@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <Header/>
-      <div className="justify-center align-middle flex">
-      <Cards/>
+      <div className="justify-center items-center flex">
+      <Cards />
       <Cards/>
 
       </div>
