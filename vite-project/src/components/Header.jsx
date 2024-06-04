@@ -1,18 +1,20 @@
-import './header.css'
-function Header(){
-    return(
-       <>
-       <div id="navbar">
-        <div id='nav_items'>
-          <ul id="nav_li">
-            <li id="Home">Home</li>
-            <li id="About">About</li>
-            <li id="Products">Products</li>
-          </ul>
+function Header() {
+  return (
+    <>
+      <nav className="flex justify-around  bg-purple-200 h-16 p-5" id="navbar">
+        <div className="hover:font-bold `logo"> Shop Now </div>
+        <ul>
 
-        </div>
-      </div>
-       </>
-    )
- }
- export default Header
+          <li className="flex gap-4 cursor-pointer" id="nav_li">
+            <a className="hover:font-bold" href="/" id="Home">Home</a>
+            <a className="hover:font-bold" href="/" id="About">About</a>
+            <a className="hover:font-bold" href="/" id="Products">Products</a>
+          </li>
+          </ul>
+        
+      </nav>
+    </>
+  )
+}
+
+export default Header
