@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Product 1",
+    "img": "https://www.thestatesman.com/wp-content/uploads/2019/03/e-comm.jpg",
+    "description": "Description of Product 1",
+    "price": "$19.99"
+  },
+  {
+    "title": "Product 1",
+    "img": "https://www.thestatesman.com/wp-content/uploads/2019/03/e-comm.jpg",
+    "description": "Description of Product 1",
+    "price": "$19.99"
+  },
+  {
+    "title": "Product 3",
+    "img": "https://www.thestatesman.com/wp-content/uploads/2019/03/e-comm.jpg",
+    "description": "Description of Product 3",
+    "price": "$39.99"
+  }
+]

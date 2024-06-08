@@ -1,11 +1,23 @@
+import data from './data.json/'
 export default function Cards() {
     return (
         <>
-            <div className="m-10 border-double cards">
-                <div className="card">
-                    <h2 className="title text-black">Boat</h2>
-                    <img className=" rounded-3xl max-h-72" src="https://images.pexels.com/photos/21602184/pexels-photo-21602184/free-photo-of-a-bicycle-parked-in-front-of-a-tree-in-a-yard.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-                </div>
+               
+            
+            
+            <div className="m-10 flex  gap-3 text-center cards">
+                {
+                    data.map((products, i) => (
+                        <div key={i}>
+                            <img src={products.img} alt="image" />
+                            <p>{products.description}</p>
+                            <span className='bg-purple-500 text-white px-5 py-1 rounded-full'>{products.price}</span>
+                        </div>
+                    )
+
+                    )
+
+                }
             </div>
         </>
     )
