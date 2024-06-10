@@ -1,6 +1,7 @@
 import Header from "./components/Header"
 import Cards from "./components/cards"
 import Slider from "./components/sliderBox"
+import Footer from "./components/footer"
 
 
 
@@ -10,12 +11,10 @@ function App() {
     <>
       <Header/>
       <Slider/>
-
-      {/* <div className="justify-center items-center flex"> */}
       <Cards />
+      <Footer/>
 
 
-      {/* </div> */}
       
       
     </>
